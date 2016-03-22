@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Dairy Products</title>
+    </head>
+    <body>
+        <table>
+            <tr><th>Product</th> <th>Quantity</th> <th>Price</th></tr>
+            <tr ng-repeat="item in dairy.items">
+                <td>{{item.name}}</td><td>{{item.quantity}}</td> <td>{{item.price}}</td>
+            </tr>
+        </table>
+        <img src="images/dairy.jpg" />
+    </body>
+</html>

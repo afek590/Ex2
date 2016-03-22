@@ -1,0 +1,16 @@
+<html ng-app='myApp'>
+	<head>
+		<title>RoutingDemo App</title>
+        <script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/main.css" />
+	</head>
+	<body>
+		<p class="myH">Afek's Grocery</p>
+        <br /><br />
+        <a href="#/"><button>Main</button></a> <a href="#/meat"><button>Meat Section</button></a> <a href="#/dairy"><button>Dairy Section</button></a>
+        <br /> <br />
+        <div ng-view></div>
+	</body>
+</html>
